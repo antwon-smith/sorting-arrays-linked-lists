@@ -23,5 +23,22 @@ namespace LinkedListTraining_tests
             var actual = sut.Get(0);
             Assert.AreEqual(expected, actual);
         }
+
+        [TestMethod]
+        public void AddAtTail_OneNumber_CanReturnNumber()
+        {
+            var input = 1;
+            var sut = new MyLinkedList();
+            sut.AddAtTail(input);
+
+            //var input = 2;
+            //var expected = 0;
+            //var sut = new MyLinkedList();
+
+            //sut.AddAtHead(input);
+
+            //var actual = sut.Get(0);
+            //Assert.AreEqual(expected, actual);
+        }
     }
 }

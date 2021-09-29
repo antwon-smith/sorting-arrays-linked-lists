@@ -80,7 +80,7 @@ namespace LinkedListsTraining
 
             var combined = Combine(botOut, topOut);
 
-            return combined
+            return combined;
 
             
             //for(int w = 1; w < arr.Length; w= w*2)
